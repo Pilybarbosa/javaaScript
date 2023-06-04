@@ -1,0 +1,42 @@
+ let onces=["Empanadas","Tamal","jugo","patacon","gaseosa"]
+ //imprimir una array
+ console.log(onces)
+ //acceder a un elemento de un arreglo
+ elemento=onces[1]
+ console.log(onces[1])
+ console.log(elemento)
+ //ultima posicion de un array
+ console.log(onces[onces.length])
+ //recorrer un array
+ onces.forEach(function(valor,posicion,array){
+    console.log(`en la posicion ${posicion} hay ${valor}`);
+  
+ })
+ // eliminar elemetos array
+
+ onces.pop()
+ console.log(onces)
+
+
+ // AGG ELEMENTOS DE ARRAY 
+ onces.unshift("jugo")
+ console.log(onces)
+
+// eliminar de una posicion  en especifisico
+
+ onces.splice(1,1) 
+ console.log(onces)
+
+ // metodo busqueda filter 
+ let busqueda1=onces.filter(onces>=onces=="tamal")
+console.log(busqueda1)
+
+// metodo busqueda find  este toma todas las considencias yla pondra en busqueda1
+
+let busqueda2=onces.find(onces>=onces=="jugo ")
+console.log(busqueda2)
+
+
+
+
+//

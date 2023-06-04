@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background: #6cca83;
+    display: flex;
+}
+
+.logo-name{
+    display: flex;
+    margin-left: 30px;
+}
+
+.logo-name .nombre  {
+    margin: 20px 10px;
+    display: flex;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+.figuras{
+    background-color: black;
+}
+
+.modal{
+    background: #0000004b;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px ;
+    display: none;
+}
+
+.contenidoModal{
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    padding: 16px;
+    animation-name: animarModal;
+    animation-duration: 0.5s;
+}
+
+.cerrarModal{
+    font-size: 32px;
+    float: right;
+}
+
+.cerrarModal:hover{
+    cursor: pointer;
+}
+@keyframes animarModal{
+    from {top: -300px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+.imgcua{
+    width: 50px;
+    margin-top: 15px;
+
+}
+
+

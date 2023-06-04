@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="..//css/formulario6.css">
+</head>
+<body>
+    <header>
+        <div class="logo-name">
+            <div class="logo"> 
+              <img src="../img/3800_3_08.jpg" alt="">
+      </div>
+          <div class="nombre">
+             <h1>RETOS JAVA SCRIP (JS)</h1>
+          </div>
+      </div>
+    </header>
+   <form id="validacion" class="caja" novalidate>
+     
+
+        <div class="boton">
+            <label for="retos js" > Tipo dc:</label>
+
+            <select name="retos js " id="retos js">
+            
+                <option value="1">tipo documento</option>
+                <option value="2">Tarjeta de ID </option>
+                <option value="3">Cedula Ciudadana </option>
+                <option value="4">Cedula Extranjera </option>
+
+            </select> 
+        </div>
+
+        <div class="datos" id="datos">
+            <div class="documento"  id="documento">
+                    <label>No.docuemnto</label>
+                    <input type="text" name="docu" id="docu" class="" placeholder="Ingrese el numero de documento">
+                <div class="doc"></div>
+            </div>
+
+            <div class="nombre" id="nombre">
+                    <label>nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="">
+                <div class="nom"></div>
+            </div>
+
+            <div class="apellido" id="apellido">
+                <label>Apellido</label>
+                <input type="text" name="apellido" id="apellido" class="">
+                <div class="app"></div>
+            </div>
+        
+            <div class="fecha-nacimiento" id="fecha-nacimineto">
+                <label>fecha nacimiento</label>
+                <input type="date" name="fecha" id="fecha">
+                <div class="fch"></div>
+            </div>
+
+            <div class="correo">
+                <label>Correo Electronico</label>
+                <input type="text" name="correoo" id="correoo" class="">
+                <div class="cor"></div>
+            </div>    
+
+            <div class="contraseña">
+                <label>Password</label>
+                <input type="password" name="password" id="p--assword">
+                <div class="contra"></div>
+            </div>
+
+            <div class="password">
+                <label>Comprobra password</label>
+                <input type="password" name="comprobrar" id="comprobrar">
+                <div class="pass"></div>
+            </div>
+
+            <div class="terminos">
+                <label>Terminos de uso</label>
+                <input type="ter" name="terUso" id="terUso" >
+                <div class="terr"></div>
+            </div>
+</div>
+
+            <button id="formulario6" onclick="calcular(event)" >Calcular</button>
+    </form>
+    <script type="Text/javaScript" src="../formularioa6.js" ></script>
+        
+    </body>
+    </html>

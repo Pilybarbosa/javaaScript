@@ -1,0 +1,37 @@
+
+header{
+    background: #6cca83;
+    display: flex;
+}
+
+.logo-name{
+    display: flex;
+    margin-left: 30px;
+}
+
+.logo-name .nombre  {
+    margin: 20px 10px;
+    display: flex;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.contenedor{
+    margin-top: 5px;
+    left: 100px;
+    height: 200px;
+    background-color: #8beaa1;
+}
+.contenedor2{
+    
+    left: 200px;
+    height: 300px;
+    background-color: #8beaa1;
+}
